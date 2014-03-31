@@ -1,5 +1,5 @@
-Summary of Hands On Node.js book
-================================
+Chapter 1: Why Node.js?
+=======================
 
 This book you know basic Javascript syntax. If you don't know Javascript I highly recommend 
 doing a few exercises from codeacademy [here](http://www.codecademy.com/tracks/javascript).
