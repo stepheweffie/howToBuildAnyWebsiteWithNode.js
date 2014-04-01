@@ -60,3 +60,34 @@ for doing input output operations hasn't been standarized like
 it has in C, Ruby, and Python.
 
 <h3>Reason 2: Javascript!</h3>
+When Node.js was first being created by Ryan Dahl he realized that Javascript would be perfect becuase it has this concept of closures(functions that inherit the variables from their calling environment).
+
+<h4>Javascript Review</h4>
+
+You can write a JavaScript function like this:
+```js
+function() {
+	console.log('goodbye, the world sucks!');
+}
+```
+
+This is known as an anonymous function can only be called
+in place by putting wierd looking parathesis around it like so:
+
+```js
+(function() {
+	console.log('goodbye, the world sucks!');
+})();
+```
+
+OR the better way to write a JavaScript function would be to
+give it a name like:
+```js
+function myFunction() {
+	console.log('goodbye, the world sucks!');
+}
+
+myFunction(); // easier way to call myFunction
+```
+
+
