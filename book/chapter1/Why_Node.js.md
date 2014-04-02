@@ -3,8 +3,8 @@ Chapter 1: Why Node.js
 
 <b>NOTE:</b> This book assumes you know basic Javascript syntax & about 2 
 months of programming experience in any language. If you don't 
-meet either of these assumptions I highly recommend doing a 
-few exercises from codeacademy [here](http://www.codecademy.com/tracks/javascript).
+meet either of these assumptions I highly recommend doing a few JavaScript
+exercises from codeacademy [here](http://www.codecademy.com/tracks/javascript).
 
 <h2>Why use Node.js?</h2>
 
@@ -63,4 +63,4 @@ When Node.js was first being created by Ryan Dahl he realized that Javascript wo
 
 TODO: add example
 
-[PREVIOUS PAGE](../README.md)    <p = align="right">[NEXT PAGE](./Setup_Node.js.md)</p>
+[PREVIOUS PAGE](../../README.md)    <p = align="right">[NEXT PAGE](./Setup_Node.js.md)</p>
