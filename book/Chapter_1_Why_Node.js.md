@@ -1,11 +1,10 @@
-Chapter 1: Why Node.js?
-=======================
+Chapter 1: Why Node.js
+======================
 
-This book assumes you know basic Javascript syntax & about 2 
+<b>NOTE:</b> This book assumes you know basic Javascript syntax & about 2 
 months of programming experience in any language. If you don't 
 meet either of these assumptions I highly recommend doing a 
-few exercises from codeacademy 
-[here](http://www.codecademy.com/tracks/javascript).
+few exercises from codeacademy [here](http://www.codecademy.com/tracks/javascript).
 
 <h2>Why use Node.js?</h2>
 

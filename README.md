@@ -6,8 +6,8 @@ book for Node.js allowing readers to build any website with Node.js!
 
 <h2>Here is the book</h2>
 
-- [Chapter 1: Why Node.js?](./book/Chapter_1_Why_Node.js.md)
-- [Chapter 2: Setup Node.js for Windows/Mac/Linux]
+- [Chapter 1: Why Node.js](./book/Chapter_1_Why_Node.js.md)
+- [Chapter 2: Setup Node.js for Windows/Mac/Linux](./book/Chapter_2_Setup_Node.js.md)
   + [JavaScript Review](./book/JavascriptReview.md)
 
 <h2>How to contribute to this book</h2>
