@@ -63,4 +63,5 @@ When Node.js was first being created by Ryan Dahl he realized that Javascript wo
 
 TODO: add example
 
-[PREVIOUS PAGE](../README.md)    <p = align="right">[NEXT PAGE](./Chapter_2_Setup_Node.js.md)</p>
+<p = align="left">[PREVIOUS PAGE](../README.md)</p>
+<p = align="right">[NEXT PAGE](./Chapter_2_Setup_Node.js.md)</p>
