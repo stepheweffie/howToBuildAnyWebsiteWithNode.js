@@ -18,6 +18,3 @@ book for Node.js allowing readers to build any website with Node.js!
 explaining the process as if you were talking to a 10 year old kid. You may want to read a chapter 
 from the current book to get a feel for the level of simplicity & explanation I am looking for.
 3. Make a pull request! I will try my best to merge or comment it within 24 hours :)
-
-=====================================================================================================
-You can view the book I am using as a guide [here](http://nodetuts.com/pdf/handson-nodejs-sample.pdf) 

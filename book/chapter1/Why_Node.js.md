@@ -62,4 +62,5 @@ it has in C, Ruby, and Python.
 When Node.js was first being created by Ryan Dahl he realized that Javascript would be perfect becuase it has this concept of closures(functions that inherit the variables from their calling environment).
 
 TODO: add example
-<p style="float: left">[PREVIOUS PAGE](../../README.md)</p>        <p style="float: right;">[NEXT PAGE](./Setup_Node.js.md)</p>
+
+[PREVIOUS PAGE](../../README.md)    <p = align="right">[NEXT PAGE](./Setup_Node.js.md)</p>
