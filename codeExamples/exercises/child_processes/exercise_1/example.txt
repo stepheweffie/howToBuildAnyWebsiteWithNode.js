@@ -1,3 +1,0 @@
-This is an example file.
-Writing will begin below this:
------------

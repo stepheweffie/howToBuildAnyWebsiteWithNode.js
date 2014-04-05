@@ -60,7 +60,3 @@ it has in C, Ruby, and Python.
 
 <h3>Reason 2: Javascript!</h3>
 When Node.js was first being created by Ryan Dahl he realized that Javascript would be perfect becuase it has this concept of closures(functions that inherit the variables from their calling environment).
-
-TODO: add example
-
-[PREVIOUS PAGE](../../README.md)    <p = align="right">[NEXT PAGE](./Setup_Node.js.md)</p>

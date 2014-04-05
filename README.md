@@ -9,6 +9,7 @@ book for Node.js allowing readers to build any website with Node.js!
 - [Chapter 1: Why Node.js](./book/chapter1/Why_Node.js.md)
   + [Setup Node.js for Windows/Mac/Linux](./book/chapter1/Setup_Node.js.md)
   + [JavaScript Review](./book/chapter1/Javascript_review.md)
+  + [Modules and NPM](./book/chapter1/Modules_and_NPM.md)
 - [Chapter 2: Code a web server](./book/chapter2/Code_a_web_server.md)
 
 <h2>How to contribute to this book</h2>

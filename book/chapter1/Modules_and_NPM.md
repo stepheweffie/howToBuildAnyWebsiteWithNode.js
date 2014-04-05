@@ -31,3 +31,6 @@ An example package.json file may look a little like this:
 	}
 }
 ```
+
+NOTE: It's common practise to depend on a specific major and 
+minor version and not specify the path version since path versions should only solve issues.
