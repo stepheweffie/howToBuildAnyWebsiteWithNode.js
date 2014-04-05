@@ -8,9 +8,29 @@ book for Node.js allowing readers to build any website with Node.js!
 
 - [Chapter 1: Why Node.js](./book/chapter1/Why_Node.js.md)
   + [Setup Node.js for Windows/Mac/Linux](./book/chapter1/Setup_Node.js.md)
-  + [JavaScript Review](./book/chapter1/Javascript_review.md)
+  + [JavaScript review](./book/chapter1/Javascript_review.md)
   + [Modules and NPM](./book/chapter1/Modules_and_NPM.md)
 - [Chapter 2: Code a web server](./book/chapter2/Code_a_web_server.md)
+  + [Learning Git & Github]
+  + [Pushing your web server to Heroku]
+
+<b>Now instead of a chapter 3 there a different paths you can choose to skip to
+where each section assumes no knowledge of other paths and only the 
+knowledge in chatpers 1 & 2:</b>
+
+- [Design path]
+  + [Using Bootstrap to make your site pretty]
+
+- [Social path]
+  + [Adding social media links]
+  + [Adding an inifinite number of live chatroooms]
+
+- [Storing & retrieving information path]
+  + [Connecting to a database]
+    - [Using MongoDB]
+
+- [Security path]
+  + [Making user logins secure]
 
 <h2>How to contribute to this book</h2>
 
