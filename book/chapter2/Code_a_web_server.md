@@ -1,6 +1,10 @@
 Chapter 2: Code a web server
 ============================
 
+<h3>What are web servers?</h3>
+
+TODO: add notes from udacity web development class
+
 <h3>Node.js event-queue processing loop</h3>
 
 TODO: queue data structure explaination

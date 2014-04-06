@@ -1,4 +1,4 @@
-How to Build Any Website With Node.js
+How to build any website with Node.js
 =====================================
 
 <b>Purpose of this repository</b>: Create the most up to date, engaging, easy to understand, & free 
@@ -6,17 +6,19 @@ book for Node.js allowing readers to build any website with Node.js!
 
 <h2>Here is the book</h2>
 
-- [Chapter 1: Why Node.js](./book/chapter1/Why_Node.js.md)
+- [Chapter 1: Why Node.js?](./book/chapter1/Why_Node.js.md)
   + [Setup Node.js for Windows/Mac/Linux](./book/chapter1/Setup_Node.js.md)
   + [JavaScript review](./book/chapter1/Javascript_review.md)
   + [Modules and NPM](./book/chapter1/Modules_and_NPM.md)
-- [Chapter 2: Code a web server](./book/chapter2/Code_a_web_server.md)
+- [Chapter 2: Create a website viewable by everyone](./book/chapter2/Website_viewable_by_everyone.md)
   + [Learning Git & Github]
+  + [Coding a simple web server](./book/chapter2/Code_a_web_server.md)
   + [Pushing your web server to Heroku]
+  + [Optional: Connecting your site to a specific domain name]
 
-<b>Now instead of a chapter 3 there a different paths you can choose to skip to
-where each section assumes no knowledge of other paths and only the 
-knowledge in chatpers 1 & 2:</b>
+<b>Now instead of a chapter 3 there are different paths you can choose to skip to
+to add on to your website! Each of the following paths assume you have understood
+the material in chapters 1 & 2 and NOT any of the other paths:</b>
 
 - [Design path]
   + [Using Bootstrap to make your site pretty]
