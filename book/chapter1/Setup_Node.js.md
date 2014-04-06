@@ -1,5 +1,5 @@
-Chapter 2: Setup Node.js for Windows/Mac/Linux
-==============================================
+Setup Node.js for Windows/Mac/Linux
+===================================
 
 1. Go to http://nodejs.org/ and install Node.js
 

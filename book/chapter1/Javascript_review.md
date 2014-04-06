@@ -41,8 +41,9 @@ myFunctionAsVariable();
 ```
 
 <h3>JSHint</h3>
-JavaScript is not perfect and there are many bad things about JavaScript that should be avoided. To make sure you are not using the bad parts of JavaScript install the tool JShint by typing
-to the command line:
+JavaScript is not perfect and there are many bad things about JavaScript that 
+should be avoided. To make sure you are not using the bad parts of JavaScript 
+install the tool JShint by typing to the command line:
 
 ```sh
 prompt> npm install -g jshint
@@ -55,5 +56,6 @@ prompt> jshint fileYouWantToCheck.js
 ```
 
 <h3>Object oriented programming</h3>
-If you are interested in how you can design a object oriented class in Javascript check out
-[Cat.js]() and how you can create an Cat object and call it's methods in [CatTest.js]().
+If you are interested in how you can design a object oriented class in 
+Javascript check out [Cat.js](./codeExamples/Cat.js) and how you can create an 
+Cat object and call it's methods in [CatTest.js](./codeExamples/CatTest.js).

@@ -35,12 +35,16 @@ significant happens. Let's use it for the previous example:
 ```js
 // let's first write the callback function we will use
 callbackFunction = function(post) {
-	doSomethingWithPost(post); // this line of code will only execute after database.query function returns
+    // this next line of code will only execute after database.query function 
+    // returns
+	doSomethingWithPost(post); 
 };
 
 database.query('SELECT * FROM posts WHERE id = 1', callbackFunction); 
 
-// doSomethingWithPost(post); // this will execute immediately now instead of after the database.query(...) is done
+// this next line will execute immediately now instead of after the 
+// database.query(...) is done
+doSomethingWithPost(post); 
 // other code...
 ```
 
@@ -59,4 +63,6 @@ for doing input output operations hasn't been standarized like
 it has in C, Ruby, and Python.
 
 <h3>Reason 2: Javascript!</h3>
-When Node.js was first being created by Ryan Dahl he realized that Javascript would be perfect becuase it has this concept of closures(functions that inherit the variables from their calling environment).
+When Node.js was first being created by Ryan Dahl he realized that Javascript 
+would be perfect becuase it has this concept of closures(functions that inherit
+the variables from their calling environment).
