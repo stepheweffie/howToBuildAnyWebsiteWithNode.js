@@ -1,5 +1,5 @@
-Chapter 2: Code a web server
-============================
+Code a web server
+=================
 
 <h3>What are web servers?</h3>
 

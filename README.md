@@ -8,7 +8,7 @@ book for Node.js allowing readers to build any website with Node.js!
 
 - [Chapter 1: Why Node.js?](./book/chapter1/Why_Node.js.md)
   + [Setup Node.js for Windows/Mac/Linux](./book/chapter1/Setup_Node.js.md)
-  + [JavaScript review](./book/chapter1/Javascript_review.md)
+  + [Optional: JavaScript review](./book/chapter1/Javascript_review.md)
   + [Modules and NPM](./book/chapter1/Modules_and_NPM.md)
 - [Chapter 2: Create a website viewable by everyone](./book/chapter2/Website_viewable_by_everyone.md)
   + [Learning Git & Github]
@@ -25,7 +25,8 @@ the material in chapters 1 & 2 and NOT any of the other paths:</b>
 
 - [Social path]
   + [Adding social media links]
-  + [Adding an inifinite number of live chatroooms]
+  + [Adding one live chatroom]
+    - [Adding an inifinite number of live chatroooms]
 
 - [Storing & retrieving information path]
   + [Connecting to a database]

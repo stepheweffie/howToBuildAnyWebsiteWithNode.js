@@ -40,10 +40,7 @@ myFunction(); // OR
 myFunctionAsVariable();
 ```
 
-<b>JavaScript is the ultimate object-oriented language</b>
-Almost everything including a function is an object in JavaScript.
-
-<b>JSHint</b>
+<h3>JSHint</h3>
 JavaScript is not perfect and there are many bad things about JavaScript that should be avoided. To make sure you are not using the bad parts of JavaScript install the tool JShint by typing
 to the command line:
 
@@ -56,3 +53,7 @@ Now you can check files by typing:
 ```sh
 prompt> jshint fileYouWantToCheck.js
 ```
+
+<h3>Object oriented programming</h3>
+If you are interested in how you can design a object oriented class in Javascript check out
+[Cat.js]() and how you can create an Cat object and call it's methods in [CatTest.js]().
