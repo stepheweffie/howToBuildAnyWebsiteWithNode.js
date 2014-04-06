@@ -42,3 +42,6 @@ the material in chapters 1 & 2 and NOT any of the other paths:</b>
 explaining the process as if you were talking to a 10 year old kid. You may want to read a chapter 
 from the current book to get a feel for the level of simplicity & explanation I am looking for.
 3. Make a pull request! I will try my best to merge or comment it within 24 hours :)
+
+Feel free to also contribute by accessing our free remote server on Cloud 9 with the above
+code already setup [here](https://c9.io/quinnliu/howtobuildanywebsitewithnode_js).
