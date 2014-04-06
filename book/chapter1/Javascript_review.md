@@ -59,3 +59,7 @@ prompt> jshint fileYouWantToCheck.js
 If you are interested in how you can design a object oriented class in 
 Javascript check out [Cat.js](./codeExamples/Cat.js) and how you can create an 
 Cat object and call it's methods in [CatTest.js](./codeExamples/CatTest.js).
+
+After looking at how to write a object oriented `Cat.js` class run the file
+`CatTest.js` by following the simple directions in the folder
+[codeExamples](./codeExamples)
