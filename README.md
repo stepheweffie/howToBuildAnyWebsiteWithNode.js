@@ -12,7 +12,7 @@ website with Node.js!
   + [JavaScript review](./book/chapter1/Javascript_review.md)
   + [Modules and NPM](./book/chapter1/Modules_and_NPM.md)
 - [Chapter 2: Create a website viewable by everyone](./book/chapter2/Website_viewable_by_everyone.md)
-  + [Learning Git & Github]
+  + [Learning Git & Github](./book/chapter2/Git_and_Github.md)
   + [Coding a simple web server](./book/chapter2/Code_a_web_server.md)
   + [Pushing your web server to Heroku]
   + [Optional: Connecting your site to a specific domain name]
