@@ -14,14 +14,14 @@ website with Node.js!
 - [Chapter 2: Create a website viewable by everyone](./book/chapter2/Website_viewable_by_everyone.md)
   + [Learning Git & Github](./book/chapter2/Git_and_Github.md)
   + [Coding a simple web server](./book/chapter2/Code_a_web_server.md)
-  + [Pushing your web server to Heroku]
+  + [Pushing your web server to Heroku](./book/chapter2/Pushing_web_server_to_Heroku.md)
   + [Optional: Connecting your site to a specific domain name]
 
 <b>Now instead of a chapter 3 there are different paths you can choose to skip 
 to add on to your website! Each of the following paths assume you have 
 understood the material in chapters 1 & 2 and NOT any of the other paths:</b>
 
-- [Design path]
+- [Website Design path]
   + [Using Bootstrap to make your site pretty]
 
 - [Social path]
@@ -35,6 +35,9 @@ understood the material in chapters 1 & 2 and NOT any of the other paths:</b>
 
 - [Security path]
   + [Making user logins secure]
+
+- [Scalibility path]
+  + [Unit testing with mocha]
 
 <h2>How to contribute to this book</h2>
 

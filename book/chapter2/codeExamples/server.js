@@ -19,24 +19,43 @@ var url = require("url");
 //                                             |
 //                          querystring(string)["hello"]
 
-function start(route) {
-    function onRequestFunction(request, response) {
-      var pathname = url.parse(request.url).pathname;  
-      console.log("Request for " + pathname + " received.");
-      
-      route(pathname);
-        
-      response.writeHead(200, {"Content-Type": "text/plain"});
-      response.write("Hello World!!!");
-      response.end();
-    }
-    
-    // This creates a HTTP server with a callback function that is called for 
-    // each request.
-    http.createServer(onRequestFunction).listen(process.env.PORT, process.env.IP); 
-    // process.env.PORT and process.env.IP specifies which port and IP address 
-    // the server runs on
-    console.log("HTTP web server has started!")
+function start(route, handle) {
+	function onRequest(request, response) {
+		var pathname = url.parse(request.url).pathname;
+		console.log('Request for ' + pathname + ' received');
+		
+		var postData = "";
+		request.setEncoding("utf8");
+
+		// In my opinion, it's an HTTP servers job to give the
+		// application all the data from a requests it needs to
+		// do its job. Therefore, I suggest we handle the POST
+		// data processing right in the server and pass the
+		// final data on to the router and then the request
+		// handlers, which then can decide what to do with it.
+
+		// put all the data and end event callbacks in the
+		// server, collecting all POST data chunks in the
+		// data callback, and calling the router upon
+		// receiving the end event, which passes the collected
+		// data chunks on to the router, which in turn passes
+		// it on to the request handlers
+
+		request.addListener("data", function(postDataChunk) {
+			postData += postDataChunk;
+			console.log("Received POST data chunk '" + postDataChunk + "'.");
+		});
+
+		request.addListener("end", function() {
+			// the call to route(...) is in the "end" event
+			// callback to make sure it's only called when
+			// all POST data is gathered
+			route(handle, pathname, response, postData);
+		});
+	}
+
+	http.createServer(onRequest).listen(8888);
+	console.log("Server has started.");
 }
 
 exports.start = start;
