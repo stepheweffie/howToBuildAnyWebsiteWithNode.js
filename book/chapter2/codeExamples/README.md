@@ -14,5 +14,8 @@ prompt> cd .. # go back to the previous folder you were in if you go inside
 
 2. Run the HTTP server by typing:
 ```sh
-prompt> node server.js
+prompt> node index.js
 ```
+
+NOTE: If you are having trouble stopping the app type the following to the 
+command line: `kill $(ps ax | grep '[j]s' | awk '{ print $1 }')`
