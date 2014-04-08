@@ -43,4 +43,5 @@ To learn how to code a web server go read the popular
 on how to create a nice HTTP web server. 
 
 You can view the example commented code in the folder 
-[codeExamples](./codeExamples)
+[codeExamples](./codeExamples) that is specifically for running a HTTP server
+on cloud 9 IDE so the code won't work if you aren't on Cloud 9.
